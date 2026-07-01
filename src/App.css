@@ -1,0 +1,318 @@
+#pageArea {
+  height: 100vh;
+  width: 100vw;
+}
+
+#logoArea {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f19720;
+}
+
+.imgArea {
+  height: 165px;
+  width: 150px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+#formcontent {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #df6b1b;
+  gap: 10px;
+}
+
+#formcontent p {
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #4c3423;
+  cursor: pointer;
+}
+
+#formcontent select{
+  padding: 7px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fde7aa;
+  color: #4c3423;
+  outline: none;
+}
+
+#formcontent input{
+  padding: 7px 25px;
+  border: none;
+  border-radius: 25px;
+  background-color: #fde7aa;
+  color: #4c3423;
+  outline: none;
+}
+
+#formcontent button {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #67c1a3;
+  color: #4c3423;
+  font-weight: 700;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#listArea {
+  height: 60%;
+  width: 100%;
+  background-color: #4c3423;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px;
+}
+
+#btns {
+  display: flex;
+  gap: 10px;
+}
+
+#btns select {
+  padding: 7px 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fde7aa;
+  color: #4c3423;
+  font-weight: 600;
+  font-size: 12px;
+  outline: none;
+}
+
+#btns button {
+  padding: 7px 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fde7aa;
+  color: #4c3423;
+  font-weight: 700;
+  font-size: 11px;
+}
+
+#items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#xImg {
+  height: 20px;
+  width: 20px;
+}
+
+#xImg img {
+  height: 100%;
+  width: 100%;
+}
+
+#items p {
+  color: #fde7aa;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+#items input {
+  border: none;
+}
+
+#itemList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 70px;
+}
+
+#stateContent {
+  height: 5%;
+  width: 100%;
+  background-color: #67c1a3;
+  color: #4c3423;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#stateImg {
+  height: 20px;
+  width: 40px;
+}
+#stateImg img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#stateContent p {
+  font-weight: 600;
+  padding-top: 7px;
+}
+
+/* ================= Tablet ================= */
+
+@media (max-width: 992px) {
+  #logoArea {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .imgArea {
+    width: 200px;
+    height: 200px;
+  }
+
+  #listArea {
+    height: auto;
+    min-height: 73vh;
+  }
+
+  #formcontent {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 15px;
+  }
+
+  #formcontent p {
+    width: 100%;
+    text-align: center;
+  }
+
+  #itemList {
+    gap: 30px;
+    padding: 20px;
+  }
+
+  #stateContent p {
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
+/* ================= Mobile ================= */
+
+@media (max-width: 768px) {
+  #pageArea {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  #logoArea {
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 10px;
+    height: auto;
+    padding: 15px 0;
+  }
+
+  .imgArea {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  #formcontent {
+    height: auto;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  #formcontent p {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  #formcontent select,
+  #formcontent input,
+  #formcontent button {
+    width: 90%;
+  }
+
+  #listArea {
+    height: auto;
+    min-height: 52vh;
+    padding: 20px 10px;
+  }
+
+  #itemList {
+    /* flex-direction: column; */
+    gap: 15px;
+    align-items: center;
+  }
+
+  #items {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #items p {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  #btns {
+    flex-direction: column;
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  #btns select,
+  #btns button {
+    width: 100%;
+  }
+
+  #stateContent {
+    height: auto;
+    padding: 15px;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  #stateContent p {
+    text-align: center;
+    font-size: 14px;
+    padding: 0;
+  }
+}
+
+/* ================= Small Mobile ================= */
+
+@media (max-width: 480px) {
+  .imgArea {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  #formcontent p {
+    font-size: 15px;
+  }
+
+  #items p {
+    font-size: 14px;
+  }
+
+  #btns select,
+  #btns button,
+  #formcontent input,
+  #formcontent select,
+  #formcontent button {
+    font-size: 13px;
+  }
+
+  #stateContent p {
+    font-size: 13px;
+  }
+}
