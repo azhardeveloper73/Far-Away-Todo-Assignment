@@ -29,25 +29,19 @@ This project helps users organize and manage the items they need before going on
 
 ## 🚀 Live Demo
 
-🔗 **Live Website**
-
-```
-https://far-away-todo-assignment.vercel.app
-```
+👉 **Live Website:** https://far-away-todo-assignment.vercel.app
 
 ---
 
 ## 📂 GitHub Repository
 
-🔗 **Repository**
-
-https://github.com/azhardeveloper73/Far-Away-Todo-Assignment
+👉 **Repository:** https://github.com/azhardeveloper73/Far-Away-Todo-Assignment
 
 ---
 
 ## 📁 Project Structure
 
-```
+```text
 Far-Away-Todo-Assignment
 │
 ├── public
