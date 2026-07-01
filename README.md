@@ -32,7 +32,7 @@ This project helps users organize and manage the items they need before going on
 🔗 **Live Website**
 
 ```
-[https://your-vercel-link.vercel.app](https://far-away-todo-assignment.vercel.app)
+https://far-away-todo-assignment.vercel.app
 ```
 
 ---
