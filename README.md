@@ -1,16 +1,91 @@
-# React + Vite
+# 🌴 Far Away - Todo Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful and responsive **Todo List App** built with **React.js**.  
+This project helps users organize and manage the items they need before going on a trip.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- ➕ Add new packing items
+- ✅ Mark items as packed
+- ❌ Delete individual items
+- 📊 View packing progress with percentage
+- 🔄 Sort items by:
+  - Input Order
+  - Description
+  - Packed Status
+- 🗑️ Clear the entire list
+- 📱 Responsive Design
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Built With
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript (ES6+)
+- CSS3
+- HTML5
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Live Demo
+
+🔗 **Live Website**
+
+```
+https://your-vercel-link.vercel.app
+```
+
+---
+
+## 📂 GitHub Repository
+
+🔗 **Repository**
+
+https://github.com/azhardeveloper73/Far-Away-Todo-Assignment
+
+---
+
+## 📁 Project Structure
+
+```
+Far-Away-Todo-Assignment
+│
+├── public
+├── src
+│   ├── assets
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🎯 Learning Objectives
+
+This project helped me practice:
+
+- React Components
+- Props
+- useState Hook
+- Conditional Rendering
+- Array Methods (map, filter, sort)
+- Event Handling
+- Responsive CSS
+- State Management
+
+---
+
+## 👨‍💻 Author
+
+**Azhar Vayani**
+
+- GitHub: https://github.com/azhardeveloper73
+
+---
+
+### ⭐ If you like this project, don't forget to give it a star!
